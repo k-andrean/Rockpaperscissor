@@ -81,7 +81,7 @@ function playRound(clickedButton){
         'Player is the winner'
         : (computerScore > playerScore) ? 
         'Computer is the winner'
-        : 'The game is Draw';
+        : 'The Game Result is Draw';
 
         gameWinner.textContent = result;
 

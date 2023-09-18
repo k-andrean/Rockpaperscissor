@@ -1,0 +1,65 @@
+.body{
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.select,
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display:none;
+    margin-left: auto;
+}
+
+
+
+
+/* color setup */
+
+.player-choice,
+#play {
+    border : 2px solid blanchedalmond;
+    max-width: 100px;
+}
+
+.rock {
+    background-color:red;
+    color:azure;
+}
+
+.paper {
+    background-color: blue;
+    color: black;
+}
+
+.scissor {
+    background-color: green;
+    color: orangered;
+}
+
+p {
+    color:blueviolet;
+}
+
+.title{
+    color:burlywood;
+}
+
+#game-winner{
+    color:gold;
+}
+
+#play{
+    background-color: gold;
+    color: red;
+}
